@@ -3,7 +3,6 @@ from sklearn import tree
 from sklearn.model_selection import train_test_split
 import streamlit as st
 import numpy as np # linear algebra
-import seaborn as sns # visualization
 from sklearn.neural_network import MLPClassifier # neural network
 from sklearn import metrics
 from sklearn.preprocessing import StandardScaler
