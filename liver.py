@@ -1,7 +1,6 @@
 import pandas as pd
 from sklearn import tree
 from sklearn.model_selection import train_test_split
-import math
 import streamlit as st
 import numpy as np # linear algebra
 import seaborn as sns # visualization
@@ -12,7 +11,6 @@ from pickle import dump
 from sklearn.preprocessing import StandardScaler
 import librosa
 import pandas as pd
-import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.decomposition import PCA
